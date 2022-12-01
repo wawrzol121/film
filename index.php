@@ -25,7 +25,9 @@ $conn = new mysqli("localhost", "root", "", "move");
         echo"<h3>rok_produkcji =".$film[$i]["rok_produkcji"]."</h3>";
         echo"<h3>autor = ".$film[$i]["autor"]."</h3>";
         echo"<h3>wypozyczony =".$film[$i]["wypozyczony"]."</h3>";
+        echo "<hr/>";
     }
+        
 
     
 
